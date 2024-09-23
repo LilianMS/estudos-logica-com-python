@@ -1,2 +1,5 @@
-numero = int(input("Digite um número:"))
-print(f"O fatorial desse número é", math.factorial(numero))
+# Lendo de um arquivo
+
+with open('ex040.py', 'r') as arquivo:
+    conteudo = arquivo.read()
+    print(conteudo)
